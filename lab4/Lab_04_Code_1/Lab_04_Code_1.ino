@@ -27,7 +27,7 @@ void setup() {
     DDRB |= (1 << PULSE_PIN);           // configure PB5 as output
     PORTB &= ~(1 << PULSE_PIN);         // set PB5 LOW so output starts OFF
 
-    DDRD &= ~(1 << BUTTON_BIT);         // configure PD5 as input
+    DDRD &= ~(1 << BUTTON_BIT);         // configure PD2 as input
     PORTD |= (1 << BUTTON_BIT);         // enable internal pull-up on PD2, so pin is HIGH
 
     // INT0 is triggered on falling edge:
