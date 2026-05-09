@@ -1,3 +1,4 @@
+// 0.5 sec code
 #include <avr/io.h>                     // access to AVR registers as DDRD, PORTD, DDRB, PORTB and others
 #include <avr/interrupt.h>              // access to ISR and interrupt-related functions
 
